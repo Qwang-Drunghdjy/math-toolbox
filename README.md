@@ -7,3 +7,4 @@
 数学工具箱:
 
 - [组合数学](./docs/combinatorics.md)
+- [求和方法](./docs/summation.md)

@@ -1,9 +1,9 @@
 # 组合数学
 
-## 排列{#permutation}
+## 排列
 
 ```math
-    P_n^k = \frac{n!}{(n-k)!}
+P_n^k = \frac{n!}{(n-k)!}
 ```
 
 从 $n$ 个元素中取出 $k$ 个元素, $k$ 个元素的排列数量.
@@ -12,10 +12,10 @@
 
 - 排列计算假设元素不同且不重复.
 
-## 组合{#combination}
+## 组合
 
 ```math
-    C_n^k = \frac{P_n^k}{k!} = \frac{n!}{k!(n-k)!}
+C_n^k = \frac{P_n^k}{k!} = \frac{n!}{k!(n-k)!}
 ```
 
 从 $n$ 个元素中取出 $k$ 个元素, $k$ 个元素的组合数量.
