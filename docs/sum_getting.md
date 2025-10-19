@@ -2,6 +2,46 @@
 
 ## 级数
 
+### 常用等价无穷小量替换
+
+```math
+\begin{aligned}
+    \sin x \sim \tan x & \sim x \\
+    \arcsin x \sim \arctan x & \sim x \\
+    \ln(1 + x) \sim e^x - 1 &\sim x \\
+    \ln(x + \sqrt{1 + x^2}) & \sim x \\
+\end{aligned}
+```
+
+```math
+\begin{aligned}
+    x - \ln(1 + x) & \sim \frac{1}{2}x^2 \\
+    1 - \cos x & \sim \frac{1}{2}x^2 \\
+\end{aligned}
+```
+
+```math
+\begin{aligned}
+    x - \sin x & \sim \frac{1}{6}x^3 \\
+    \arcsin x - x &\sim \frac{1}{6}x^3 \\
+\end{aligned}
+```
+
+```math
+\begin{aligned}
+    \tan - x &\sim \frac{1}{3}x^3 \\
+    x - \arctan x &\sim \frac{1}{3}x^3 \\
+\end{aligned}
+```
+
+```math
+\begin{aligned}
+    \log_a(1 + x) & \sim \frac{x}{\ln a} \\
+    (1 + x)^\alpha - 1 &\sim \alpha x \\
+    \tan x - \sin x &\sim \frac{1}{2}x^3 \\
+\end{aligned}
+```
+
 ### 连续自然数的平方和公式
 
 ```math
